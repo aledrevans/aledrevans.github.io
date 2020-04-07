@@ -11,7 +11,9 @@ description: A blog about cheesecakes I eat when on lockdown.
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
-theme: jekyll-theme-midnight
+theme: minima
+
+#
 # Flags below are optional
 #
 
