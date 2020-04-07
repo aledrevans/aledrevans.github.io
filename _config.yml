@@ -1,25 +1,25 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown: redcarpet
+highlighter: pygments
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
 # Setup
-title:            Cheesecake Connoisseur
-tagline:          'A blog about cheesecakes'
-description:      'I'm on lockdown because of coronavirus, and as a result, I'm eating a lot of cheesecake. Why? I don't know, but I fucking love cheesecake, and I'm going to be rating every cheesecake I eat here.'
-url:              https://aledrevans.github.io
-baseurl:          /
+title: Cheesecake Connoisseur
+tagline: 'A blog about cheesecakes'
+description: 'I'm on lockdown because of coronavirus, and as a result, I'm eating a lot of cheesecake. Why? I don't know, but I fucking love cheesecake, and I'm going to be rating every cheesecake I eat here.'
+url: https://aledrevans.github.io
+baseurl: /
 
 author:
-  name:           'Aled Evans'
-  url:            https://instagram.com/himynameisaled
+  name: 'Aled Evans'
+  url: https://instagram.com/himynameisaled
 
-paginate:         5
+paginate: 5
 
 # Custom vars
-version:          2.1.0
+version: 2.1.0
 
 github:
-  repo:           https://github.com/fedorovindustries
+  repo: https://github.com/fedorovindustries
