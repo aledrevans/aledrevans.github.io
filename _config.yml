@@ -1,25 +1,41 @@
-# Dependencies
-markdown: redcarpet
-highlighter: pygments
-
-# Permalinks
+# Setup
+title: Poole
+tagline: The Jekyll Butler
+url: https://getpoole.com
+paginate: 1
+baseurl: ""
 permalink: pretty
 
-# Setup
-title: Cheesecake Connoisseur
-tagline: 'A blog about cheesecakes'
-description: 'I'm on lockdown because of coronavirus, and as a result, I'm eating a lot of cheesecake. Why? I don't know, but I fucking love cheesecake, and I'm going to be rating every cheesecake I eat here.'
-url: https://aledrevans.github.io
-baseurl: /
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
 
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# Specify the author for blog posts
 author:
-  name: 'Aled Evans'
-  url: https://instagram.com/himynameisaled
-
-paginate: 5
+  name: Mark Otto
+  url: https://twitter.com/mdo
+  email: markdotto@gmail.com
 
 # Custom vars
-version: 2.1.0
-
-github:
-  repo: https://github.com/fedorovindustries
+version: 3.0.0
